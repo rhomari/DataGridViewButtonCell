@@ -46,17 +46,7 @@ namespace WinFormsApp4
             dataGridView1.Columns.Insert(2, editbutton);
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-            
-        }
-
-        private void dataGridView1_RowValidated(object sender, DataGridViewCellEventArgs e)
-        {
-           
-        }
-        
+      
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             
@@ -73,9 +63,6 @@ namespace WinFormsApp4
            
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
+      
     }
 }
